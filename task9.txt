@@ -1,0 +1,140 @@
+
+HTML Task to know usage of basic tags.
+
+1.Fix the bugs in below snippet
+
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+            <body>
+                guvi
+        
+   
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+Design a contact us form with all fields as required.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Contact us form Using HTML and CSS</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper">
+  <div class="title">
+    <h1>contact us form</h1>
+  </div>
+  <div class="contact-form">
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Name">
+      <input type="text" class="input" placeholder="Email Address">
+      <input type="text" class="input" placeholder="Phone">
+      <input type="text" class="input" placeholder="Subject">
+    </div>
+    <div class="msg">
+      <textarea placeholder="Message"></textarea>
+      <div class="btn">send</div>
+    </div>
+  </div>
+</div>
+	
+</body>
+</html>
+
+
+Use certain HTML elements to display the following in a HTML page.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+   <ul>
+       <li>Programming Language</li>
+       <ul type="circle">
+            <li>Javascript</li>
+            <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+            <li>Python</li>
+            <ol type="a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+                
+            </ol>
+            <li>Java</li>
+            <ol type="a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+       </ul>
+        <li>Database</li>
+        <ul type="circle">
+            <li>Mysql</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+       </ul>
+</ul>
+</body>
+</html>
+
+
+Create an element that helps you to open the https://google.com in separate new tab.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com ">GOOGLE</a>
+</body>
+</html>
+
+
+
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset id="group1">
+          <input type="Employee" value="Salary" name="group1"> Salary
+          <input type="Emplayee" value="Own Business" name="group1"> Own Business
+        </fieldset>
+     </form> 
+</body>
+</html>
+
